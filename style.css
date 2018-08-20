@@ -19,6 +19,15 @@ h1 {
     margin: 0px auto;
 }
 
+h2 {
+    font-family: Verdana;
+    font-size: 2em;
+    color:lightskyblue;
+    width: 400px;
+    text-align: center;
+    margin: 0px auto;
+}
+
 img {
     width: 150px;
     height: 150px;
