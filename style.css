@@ -55,7 +55,7 @@ canvas{
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 2vw;
   color: lightcyan;
   text-align: center;
   text-shadow: 2px 1px gray;
@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 1.8vw;
   color: lightyellow;
   text-align: center;
   text-shadow: 3px 2px black;
