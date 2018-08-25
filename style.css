@@ -54,8 +54,11 @@ canvas{
   z-index: 1;
 }
 
-.header {
+h1 {
+  font-size: 38px;
+  color: lightcyan;
   text-align: center;
+  text-shadow: 2px 1px gray;
   position: absolute;
   top: 3%;
   bottom: 97%;
@@ -63,9 +66,16 @@ canvas{
   right:20%;
 }
 
-h1 {
+h2 {
   font-size: 32px;
-  color: lightcyan;
+  color: lightyellow;
+  text-align: center;
+  text-shadow: 3px 2px black;
+  position: absolute;
+  top: 30%;
+  bottom: 70%;
+  left: 20%;
+  right:20%;
 }
 
 
