@@ -33,7 +33,7 @@ html{
 body{
   font:normal 75% Arial, Helvetica, sans-serif;
   text-align: center;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* canvas{
@@ -44,6 +44,7 @@ body{
 /* ---- particles.js container ---- */
 
 #particles-js{
+  position: absolute;
   width: 100%;
   height: 100%;
   /* background-color:#0cafaf; */
@@ -51,7 +52,7 @@ body{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: 0;
 }
 
 /* #particles-js2{
@@ -68,6 +69,7 @@ body{
   padding-top: 170px;
   font-size: 40px;
   color: #ecf0f1;
+  z-index: 1;
 }
 
 .tech-stack-item1 {
@@ -79,6 +81,7 @@ body{
   margin: 5px;
   color: white;
   background-color: lightskyblue;
+  z-index: 0;
 }
 
 .tech-stack-item2 {
@@ -90,6 +93,7 @@ body{
   margin: 5px;
   color: mediumturquoise;
   background-color: gray;
+  z-index: 0;
 }
 
 .tech-stack-item3 {
@@ -101,6 +105,7 @@ body{
   margin: 5px;
   color: mediumturquoise;
   background-color: rgb(107, 77, 22);
+  z-index: 0;
 }
 
 .intro__header {
@@ -109,13 +114,16 @@ body{
   color: #55C9C9;
   font-size: 35px;
   text-shadow: 1px 1px black;
+  z-index: 1;
 }
 
 .flex-container {
+  margin-top: 280px;
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: center;
   width: 60vw;
+  z-index: 1;
 }
 
 /* h1 {
@@ -145,18 +153,18 @@ h2 {
 .content {
   position: absolute;
   max-width: 100%;
-  top: 20%;
+  top:30%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  height: 30%;
+  height: 50%;
   overflow: hidden;
   font-family: 'Lato', sans-serif;
   font-size: 35px;
   line-height: 40px;
   color: #ecf0f1;
   padding-top: 100px;
-  z-index: 1;
+  z-index: 0;
 }
 .content__container {
   font-weight: 600;
@@ -165,6 +173,7 @@ h2 {
   padding: 0 40px;
   max-width: 100%;
   max-height: 100%;
+  z-index: 0;
 }
 .content__container:before {
   content: '[';
