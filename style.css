@@ -33,7 +33,7 @@ html{
 body{
   font:normal 75% Arial, Helvetica, sans-serif;
   text-align: center;
-  z-index: 0;
+  z-index: 1;
 }
 
 /* canvas{
@@ -64,6 +64,17 @@ body{
   background-repeat: no-repeat;
   z-index: 1;
 } */
+
+.about-me {
+  display: inline-flex;
+  position: relative;
+  background-color: rgba(236, 239, 240, 0.2);
+  margin-top: 100px;
+  width: 50%;
+  height: 250px;
+  color: whitesmoke;
+  z-index: 1;
+}
 
 
 .tech__stack__header {
@@ -127,8 +138,7 @@ body{
 
 .intro__header {
   margin: auto;
-  word-wrap: auto;
-  padding-top: 5vw;
+  padding-top: 2vw;
   color: whitesmoke;
   font-size: 32px;
   text-shadow: 1px 1px black;
@@ -136,7 +146,6 @@ body{
 }
 
 .flex-container {
-  margin-top: 220px;
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -171,11 +180,10 @@ h2 {
 .content {
   position: absolute;
   max-width: 100%;
-  top:30%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  height: 50%;
+  height: 20%;
   overflow: hidden;
   font-family: 'Lato', sans-serif;
   font-size: 35px;
