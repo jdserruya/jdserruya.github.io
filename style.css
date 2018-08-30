@@ -65,6 +65,7 @@ body{
   z-index: 1;
 } */
 
+
 .tech__stack__header {
   padding-top: 170px;
   font-size: 40px;
@@ -75,50 +76,67 @@ body{
 .tech-stack-item1 {
   width: 160px;
   height: 80px;
-  /* border: 3px solid black; */
+  border: 2px solid white;
   border-radius: 10px;
   padding-top: 15px;
   margin: 5px;
-  color: white;
-  background-color: lightskyblue;
+  color: yellow;
+  background-color: rgba(128, 128, 128, 0.5);
   z-index: 0;
 }
 
 .tech-stack-item2 {
   width: 160px;
   height: 80px;
-  /* border: 3px solid black; */
+  border: 2px solid white;
   border-radius: 10px;
   padding-top: 15px;
   margin: 5px;
-  color: mediumturquoise;
-  background-color: gray;
+  color: greenyellow;
+  background-color: rgba(237, 241, 243, 0.39);
   z-index: 0;
 }
 
 .tech-stack-item3 {
   width: 160px;
   height: 80px;
-  /* border: 3px solid black; */
+  border: 2px solid white;
   border-radius: 10px;
   padding-top: 15px;
   margin: 5px;
-  color: mediumturquoise;
-  background-color: rgb(107, 77, 22);
+  color: gold;
+  background-color: rgba(107, 77, 22, 0.5);
   z-index: 0;
+}
+.grow:hover
+{
+        -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+        transform: scale(2);
+}
+
+.fade
+{
+        opacity:0.9;
+}
+
+.fade:hover
+{
+        opacity:1;
 }
 
 .intro__header {
   margin: auto;
-  padding-top: 2vw;
-  color: #55C9C9;
-  font-size: 35px;
+  word-wrap: auto;
+  padding-top: 5vw;
+  color: whitesmoke;
+  font-size: 32px;
   text-shadow: 1px 1px black;
   z-index: 1;
 }
 
 .flex-container {
-  margin-top: 280px;
+  margin-top: 220px;
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -177,11 +195,11 @@ h2 {
 }
 .content__container:before {
   content: '[';
-  left: 10px;
+  left: 14px;
 }
 .content__container:after {
   content: ']';
-  right: 14px;
+  right: 25px;
 }
 .content__container:after, .content__container:before {
   position: absolute;
@@ -196,14 +214,14 @@ h2 {
   animation-name: opacity;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  padding-top: 100px;
+  padding-top: 97px;
 }
 .content__container__text {
   display: block;
   float: left;
   margin: 0;
   max-width: 100%;
-  color: #008D8D;
+  color: whitesmoke;
 }
 
 .content__container__list {
@@ -224,7 +242,7 @@ h2 {
   margin: 0;
   max-width: 100%;
   min-width: 154px;
-  color: whitesmoke;
+  color: gold;
   /* text-shadow: 2px 1px white; */
 }
 
