@@ -74,6 +74,18 @@ body{
   width: 50%;
   height: 210px;
   color: whitesmoke;
+  /* text-shadow: 1px 1px black; */
+  z-index: 1;
+}
+
+.social-media-icons {
+  display: block;
+  position: relative;
+  float: right;
+  width: 50px;
+  height: auto;
+  padding-top: 5px;
+  padding-right: 5px;
   z-index: 1;
 }
 
@@ -154,6 +166,11 @@ body{
   z-index: 1;
 }
 
+a {
+  color: gold;
+  text-decoration: none;
+}
+
 /* h1 {
   font-size: 2vw;
   color: lightcyan;
@@ -208,7 +225,7 @@ h2 {
 }
 .content__container:after {
   content: ']';
-  right: 25px;
+  right: 20px;
 }
 .content__container:after, .content__container:before {
   position: absolute;
