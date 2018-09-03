@@ -36,6 +36,7 @@ body{
   z-index: 1;
 }
 
+
 /* canvas{
   display: block;
   vertical-align:bottom;
@@ -72,20 +73,29 @@ body{
   border-radius: 15px;
   margin-top: 100px;
   width: 50%;
-  height: 210px;
+  height: 190px;
   color: whitesmoke;
   /* text-shadow: 1px 1px black; */
   z-index: 1;
 }
 
-.social-media-icons {
-  display: block;
-  position: relative;
-  float: right;
-  width: 50px;
-  height: auto;
-  padding-top: 5px;
-  padding-right: 5px;
+.about-me-text {
+  font-size: 23px;
+}
+
+.social-media-icons-github {
+  margin-top: 50px;
+  margin-right: 10px;
+  height: 50px;
+  width: auto;
+  z-index: 1;
+}
+
+.social-media-icons-linkedin {
+  margin-top: 50px;
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
   z-index: 1;
 }
 
@@ -95,6 +105,31 @@ body{
   font-size: 40px;
   color: #ecf0f1;
   z-index: 1;
+}
+
+.tech-stack-intro {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: 70px;
+  z-index: 1;
+  color: whitesmoke;
+}
+
+.tech-stack-intro-h1 {
+  font-size: 45px;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+  line-height: 45px;
+  margin: 10px;
+}
+
+.tech-stack-intro-p {
+  font-size: 23px;
+  line-height: 23px;
+  margin: 0px;
 }
 
 .tech-stack-item1 {
@@ -167,8 +202,9 @@ body{
 }
 
 a {
-  color: gold;
+  color: #0077B5;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 /* h1 {
