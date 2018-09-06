@@ -58,16 +58,6 @@ body{
   z-index: 0;
 }
 
-/* #particles-js2{
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(gray, white);
-  background-size: cover;
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: 1;
-} */
-
 .about-me {
   display: inline-flex;
   position: relative;
